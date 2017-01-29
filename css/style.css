@@ -1,22 +1,61 @@
+a {
+	text-decoration: none;
+	color: #454545;
+}
+
 ul{
 	margin : 0;
+	padding: 0;
 }
 li{
 	list-style: none;
 }
 input,textarea{
 	width: 100%;
+	padding: 10px;
 }
 textarea{
-	min-height: 400px;
+	min-height: 200px;
+	resize: none;
+	border: 1px solid #ccc
+}
+.txtarea-1{
+	min-height: 100px;
+}
+input{
+	height: 36px;
+}
+.container{
+	padding: 50px 0;
+}
+.sbmt{
+	height: 40px;
+	background: #178fac;
+	border: 0;
+	color: #fff;
 }
 .container{
 	width: 600px;
 	margin: auto;
 }
+.header{
+	padding: 20px 10px;
+}
 .menu-item{
-	float: left;
-	padding: 10px 15px ;
+	float: right;
+	margin-left: 10px;
+
+}
+.menu-item a{
+	display: block;
+	background: #d3776e;
+	padding: 10px ;
+	border-radius: 3px;
+	color: #fff;
+}
+.separator{
+	border-top: 1px solid #ddd;
+	margin: 10px 0; 
 }
 .clearfix{
 	clear: both;
