@@ -1,3 +1,6 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>edit your article</title>
@@ -17,10 +20,11 @@
 			<div class="separator"></div>
 		</div>
 		<div class="block">
-			<form class="form" action= 'thx.php' method = "post">
-				<div class="box"><input type="text" name="title" placeholder="name"></div>
+			<h1 style="text-align: center">New Article</h1>
+			<form class="form" id ="form" action= 'cms-handle.php' method="post">
+				<div class="box"><input type="text" name="title" placeholder="title"></div>
 				<div class="box"><input type="text" name="author" placeholder="author"></div>
-				<div class="box" ><textarea class= "txtarea-1" name = "des" placeholder="description"></textarea></div>
+				<div class="box" ><textarea class= "txtarea-1" name= "des" placeholder="description"></textarea></div>
 
 				<div class="box" ><textarea class= "txtarea" name = "txt" placeholder="your article"></textarea></div>
 				<div class="box"><input type="submit" class="sbmt"></div>
