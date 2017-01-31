@@ -3,7 +3,7 @@ a,h1 {
 	color: #454545;
 }
 
-ul{
+ul,p,h3{
 	margin : 0;
 	padding: 0;
 }
@@ -69,3 +69,31 @@ textarea{
 .box{
 	padding: 20px 0;
 }
+.a-box{
+	font-size: 0;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 15px 0;
+}
+.a-block{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1rem;
+}
+.a-num{
+	width: 10%;
+	text-align: center;	
+}
+.a-des{
+	width: 70%;
+	color: #178fac;
+}
+.a-btn{
+	font-size: .8rem;
+	padding: 0 5px;
+}
+.a-btnbox{
+	width: 20%;
+	text-align: center;	
+}
+
