@@ -86,7 +86,7 @@ textarea{
 }
 .a-des{
 	width: 70%;
-	color: #178fac;
+	color: #454545;
 }
 .a-btn{
 	font-size: .8rem;
@@ -95,5 +95,8 @@ textarea{
 .a-btnbox{
 	width: 20%;
 	text-align: center;	
+}
+.list-box{
+	margin-bottom: 10px;
 }
 

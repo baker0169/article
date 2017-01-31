@@ -12,8 +12,8 @@
 		<div class="block">
 			<div class="header">
 				<ul class="menu-list">
-					<li class= "menu-item"><a href="">新建文章</a></li>
-					<li class= "menu-item"><a href="">文章管理</a></li>
+					<li class= "menu-item"><a href="cms.php">新建文章</a></li>
+					<li class= "menu-item"><a href="list.php">文章管理</a></li>
 					<li class= "clearfix"></li>
 				</ul>
 			</div>
